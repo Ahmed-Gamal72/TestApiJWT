@@ -35,7 +35,7 @@ namespace TestApiJWT.Services
                 return new AuthModel { Message = "UserName is already Registered!" };
 
             var user = new ApplicationUser 
-            { 
+            {  
                 UserName = model.UserName,
                 Email = model.Email ,
                 firstName = model.FirstName ,
